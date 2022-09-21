@@ -206,7 +206,7 @@ function draw() {
   noStroke();
   fill('black')
   textSize(20)
-  text('eraser',1025,height-20)
+  text('eraser',1005,height-20)
   ellipse(13,38,25,25)
   dist1 = dist(mouseX,mouseY,13,38)
   if(dist1<12.5 && mouseIsPressed && cursorSize>=2){
